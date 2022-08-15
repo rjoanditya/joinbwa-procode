@@ -1,0 +1,254 @@
+@font-face {
+        font-family: "Poppins";
+        src: url(./assets/fonts/Poppins-Regular.otf);
+        src: url(./assets/fonts/Poppins-SemiBold.otf);
+
+        font-family: "Nunito";
+        src: url(./assets/fonts/Nunito-Regular.ttf);
+        src: url(./assets/fonts/Nunito-Bold.otf);
+        src: url(./assets/fonts/Nunito-ExtraBold.otf);
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#858585;
+    font-size: 14px;
+    opacity: 1; /* Firefox */
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FAFAFA;
+}
+
+nav div.col.logo{
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 28px;
+}
+
+nav{
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+nav div.col{
+    font-family: "Poppins";
+   font-weight: 400;
+   color: #232631;
+}
+
+.container-60{
+    margin-right: 60px;
+    margin-left: 60px; 
+}
+section#ads{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section#why-us{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+section#top-restaurants{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section#nearby{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section#ex-chef{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+button.btn.btn-login{
+    font-family: 'Poppins';
+    font-size: 16;
+    font-weight: 600;
+    color:#5a4fcf;
+    background-color: #5a4fcf2e;
+    margin-left: 10px;
+    /* padding-right: 0px; */
+}
+button.btn.btn-login:focus{
+    border: 0px;
+    color:#3f34ba;
+    background-color: #3f34ba6d;
+}
+
+button.btn.btn-view{
+    font-family: 'Poppins';
+    font-size: 16;
+    font-weight: 600;
+    color:#232631;
+    background-color: #FDC886;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 12px;
+    /* padding-right: 0px; */
+}
+
+button.btn.btn-view:focus{
+    border : 0px;
+}
+
+h6.text-title{
+    font-family: 'Poppins';
+    font-size: 14;
+    font-weight: 600;
+    color: #5a4fcf; 
+    }
+
+div.card-detail{
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+    z-index: 1091;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 13%;
+    border: 0px;
+    
+}
+
+.card{
+    background-color: white;
+    border: 0px;
+    border-radius: 24px;
+    padding: 5px;
+    box-shadow: 0 2px 3px 0 rgba(120, 103, 77, 0.051), 0 6px 20px 0 rgba(120, 103, 77, 0.054);
+}
+
+div.card-transparent{
+    
+    border-radius: 24px;
+}
+div.card-transparent:hover{
+    border:0px;
+    color: #FDC886;
+    background-color:#FFFFFF;
+    box-shadow: 0 2px 3px 0 rgba(120, 103, 77, 0.051), 0 6px 20px 0 rgba(120, 103, 77, 0.054);
+    border-radius: 24px;
+}
+/* .card-img{
+background-image: url('/assets/img/img-1.png');
+} */
+
+div.card.text-center{
+    /* max-width: 315px; */
+    width: 315px;
+}
+
+div.text-title{
+font-family: 'Poppins';
+font-weight: 600;
+font-size: 16px;
+}
+
+.rate{
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FFB800;
+    align-items: center;
+}
+
+img.icon{
+    width: 80px;
+}
+
+div.star{
+    color: #FDC886;
+    font-weight: 600;
+}
+
+button.btn.btn-loc{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    color: grey;
+    background-color: #F2F2F2;
+}
+
+button.btn:hover{
+    border: 0px;
+}
+
+button.btn.btn-loc:focus{
+    border: 0px;
+    color: #030303;
+    background-color: #FFB800;
+}
+
+.w-315{
+    width: 315px;
+}
+
+.bg-warm{
+    background-color: #FDC886;
+}
+
+div.img-batavia{
+    background-image: url('../assets/img/img-4.png');
+    background-color: red;
+    background-size:cover; 
+    border-radius:30px;
+    width:427px; 
+    height:415px; 
+    margin:15px;
+}
+
+div.img-split{
+    background-image: url('../assets/img/img-5.png'); 
+    background-size:cover; 
+    border-radius:30px;
+    width:427px; 
+    height:415px; 
+    margin:15px;
+}
+
+div.img-daza{
+    background-image: url('../assets/img/img-6.png'); 
+    background-size:cover; 
+    border-radius:30px;
+    width:427px; 
+    height:415px; 
+    margin:15px;
+}
+
+div.img-chef{
+    background-image:url('../assets/img/image6.png'); 
+    height: 848px;
+    width:560px; 
+    background-size:95%;
+    background-position:center; 
+    background-repeat:no-repeat;
+}
+
+div.img-bind{
+    background-image: url('../assets/img/img-1.png'); 
+    background-size:cover; 
+    border-radius:30px;
+}
+
+.w-16{
+    width: 16px;
+}
+
+img.w-60{
+    width: 60px;
+}
+
+.h-16{
+    height: 16px;
+}
